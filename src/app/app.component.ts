@@ -5,12 +5,15 @@ import { FooterComponent } from './footer/footer.component';
 import { SectionServiceComponent } from './section-service/section-service.component';
 import { SectionGalleryComponent } from './section-gallery/section-gallery.component';
 import { SectionContactComponent } from './section-contact/section-contact.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HeaderComponent, FooterComponent,
-    SectionServiceComponent, SectionGalleryComponent, SectionContactComponent],
+  imports:
+    [RouterOutlet, HeaderComponent, FooterComponent,
+    SectionServiceComponent, SectionGalleryComponent, SectionContactComponent,
+    NavbarComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
