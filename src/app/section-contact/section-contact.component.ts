@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './section-contact.component.css'
 })
 export class SectionContactComponent {
-
+  toOpen(){
+    window.open('https://www.example.com', '_blank');
+  }
 }
