@@ -9,6 +9,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { TestimonialComponent } from "./testimonial/testimonial.component";
 
 
+
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet, HeaderComponent, FooterComponent,
